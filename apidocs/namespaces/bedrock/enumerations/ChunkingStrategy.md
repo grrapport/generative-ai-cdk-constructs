@@ -33,6 +33,22 @@ that you set in the `fixedSizeChunkingConfiguration`.
 
 ***
 
+### HIERARCHICAL
+
+> **HIERARCHICAL**: `"HIERARCHICAL"`
+
+Split documents into layers of chunks where the first layer contains large chunks, and the second layer contains smaller chunks derived from the first layer.
+
+***
+
+### SEMANTIC
+
+> **SEMANTIC**: `"SEMANTIC"`
+
+Split documents into chunks based on groups of similar content derived with natural language processing.
+
+***
+
 ### NONE
 
 > **NONE**: `"NONE"`
